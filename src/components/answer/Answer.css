@@ -1,0 +1,61 @@
+.Answers{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Answers li{
+    border-radius: 15px;
+    padding: 10px; 
+    font-weight: bolder;
+    border-left:4px solid orangered;
+    color: black;
+    background-color: rgb(208, 124, 211);
+    font-family: 'Dancing Script',cursive;
+    margin: 0 0 15px;
+    width: 50%;
+}
+
+.Answers li:hover{
+    cursor: pointer;
+    border-left:4px solid rgb(241, 121, 8);
+    color: ghostwhite;
+    background-color: rgb(110, 0, 173);
+    opacity: 0.7;
+    transition:1.5s;
+    transform-style: preserve-3d;
+}
+
+.Answers .correct,
+.Answers .correct:hover{
+    background-color: rgb(0, 184, 83);
+    border-left:4px solid rgb(71, 252, 131);
+    color: #fff;
+}
+
+.Answers .incorrect,
+.Answers .incorrect:hover{
+    background-color: rgb(255, 0, 0);
+    border-left:4px solid rgb(247, 132, 132);
+    color: #fff;
+}
+
+.Answers[disabled]{
+    pointer-events: none;
+    opacity: 0.7;
+    
+}
+
+.pcorrect{
+    color: forestgreen;
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-family: 'Dancing Script',cursive;
+}
+
+.pincorrect{
+    color: crimson;
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-family: 'Dancing Script',cursive;
+}

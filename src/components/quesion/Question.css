@@ -1,0 +1,10 @@
+.Content h1{
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: 'Dancing Script',cursive;
+    font-weight: bolder;
+    color: rgb(73, 0, 57);
+    text-transform: none;
+    text-shadow:none;
+    text-align: left;
+}
